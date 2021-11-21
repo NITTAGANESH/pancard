@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pan Update Form</title>
+    <style>
+        span {
+            color: red;
+        }
+        table,tr,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        *{
+            margin: 3px 1px 3px 1px;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="background-color: darkseagreen">
+        <div style="background-color: brown; color: white">
+            <h5 style="text-align: center">Request for new pancardes or Changes</h5>
+            <p style="font-style: italic; text-align: center">
+                Fields marked with <span>*</span>(asrtick) is
+                requried
+            </p>
+        </div>
+        <div style="font-weight: bold;">
+            <table style="width: 100%;">
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <p style="display: inline;"><span>*</span>whether the citizen is indian or not</p>
+                        <div style="display:inline">
+                            <label for="yes" style="padding-left:50px;">yes</label>
+                            <input type="radio" name="same" id="yes">
+                            <label for="no" style="padding-left:5px;">no</label>
+                            <input type="radio" name="same" id="no">
+                        </div>
+                        
+
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <label for="pan"><span>*</span>Permanent Account Number</label>
+                        <input type="text" name="" id="Pan">
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="button" value=""></td>
+                    <td colspan="2">
+                        <p style="display: inline"><span>*</span>1.Name</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <p style="display: inline">Title</p>
+                        <div style="display: inline;">
+                            <label for="shrt/mr" style="padding-left: 40px;">shrt/mr</label>
+                            <input type="radio" name="sri" id="shr/mr">
+                            <label for="smt/mrs" style="padding-left: 20px;">smt/mrs</label>
+                            <input type="radio" name="sri" id="smt/mrs">
+                            <label for="kumari/ms" style="padding-left: 20px;">kumari/ms</label>
+                            <input type="radio" name="sri" id="kumari/ms">
+                        </div>
+                    </td>
+                </tr>   
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        
+                        <div style="display: inline;">
+                            <label for="lns" style="padding-right:100px;">Last Name/Surname</label>
+                            <label for="fn" style="padding-right:145px;">first Name</label>
+                            <label for="mn" >Middle Name</label><br>
+                            <input type="ins"  name="gen" style="padding-right:10px;"  id="ins" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="fn"  name="gen" style="padding-left:10px;" id="fn"> <label for="ins" style="padding-right:40px ;"></label>
+                            <input type="mn" name="gen" style="padding-left:10px;" id="mn">
+                        
+                        </div>
+                    </td>
+                </tr> 
+
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
